@@ -1,0 +1,68 @@
+table{
+	table-layout: fixed;
+	width: 100%;
+	border: 1px solid red;
+	border-radius: 5px solid red;
+}
+.pointer{
+	cursor: pointer;
+}
+
+.text-validate{
+	color: red;
+	margin-left: 20%;
+}
+
+.loading-indicator{
+	position: absolute;
+	z-index: 2;
+	left: 55%;
+	display: none;
+}
+
+.loading-indicator-without {
+	text-align: center;
+	display: none;
+}
+
+.loding-indicator-modal{
+	margin-right: 1em;
+	display: none;
+}
+
+.show-hide {
+	display: block !important;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+input[readonly] {
+  background-color: white !important;
+  cursor: text !important;
+}
+
+.txtdisable {
+    color: #ADB2B6;
+    pointer-events: none;
+    cursor: default;
+}
+.ntxtdisable {
+    cursor: default;
+}

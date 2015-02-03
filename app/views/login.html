@@ -1,0 +1,36 @@
+<div class="site-holder">
+            <div class="login-box">
+<div class="imageBox">
+                <img src="images\user.png">
+               <h3>
+                   Member Login
+               </h3><br>
+</div><div class="input-box">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
+                        <form  role="form">
+                            <div class="input-group form-group">
+
+                                <input type="text" class="form-control" placeholder="   User Name " ng-model="username">
+                            </div><br>
+                            <div class="input-group form-group">
+
+                                <input type="Password" class="form-control" placeholder="     Password" ng-model="password">
+                            </div>
+                            <br>
+                            <div class="input-group form-group">
+                                <button class="btn  btn-block  btn-submit pull-right" ng-click="authenticate();">Submit</button>
+                            </div>
+                        </form>
+
+                    </div>
+                    <!-- col -->
+                </div>
+                <!-- row -->
+            </div>
+                <h5>{{validateMsg}}</h5>
+
+            </div>
+
+        </div>
+</div></div>
